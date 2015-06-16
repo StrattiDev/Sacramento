@@ -1,0 +1,97 @@
+body
+{
+    margin: 0;
+    padding:0;
+}
+#header
+{
+    margin:0;
+    padding:0;
+    position: fixed;
+    background-color: aquamarine;
+    width: 100%;
+    height:50px;
+    top:0;
+    left:0;
+    z-index:3;
+}
+#menu
+{
+   font-size: 12px;
+    padding:0;
+    display: inline-block;
+    padding-bottom:0;
+    margin-bottom: 0;
+    vertical-align: bottom;
+    position: relative;
+    padding-left: 5px;
+    top:24px;
+}
+#slide_1
+{
+    height:100vh;
+    width:100%;
+    background-color:red;
+    margin:0;
+    padding:0;
+    z-index:2;
+}
+#slide_2
+{
+    background: black;
+    margin: 0 ;
+    overflow: hidden;
+    padding: 0px 0 0 0;
+    background-size: cover;
+	height:100vh;
+	position:relative;
+    z-index:2;
+}
+#slide_3
+{
+    background: purple;
+    margin: 0 ;
+    overflow: hidden;
+    padding: 0px 0 0 0;
+    background-size: cover;
+	height:100vh;
+	position:relative;
+    z-index:2;
+}
+#slide_4
+{
+    background: orange;
+    margin: 0 ;
+    overflow: hidden;
+    padding: 0px 0 0 0;
+    background-size: cover;
+	height:100vh;
+	position:relative;
+    z-index:2;
+}
+#slide_5
+{
+    background: yellow;
+    margin: 0 ;
+    overflow: hidden;
+    padding: 0px 0 0 0;
+    background-size: cover;
+	height:100vh;
+	position:relative;
+    z-index:2;
+}
+a {
+    text-decoration: none; 
+  color:black;
+  /* First we need to help some browsers along for this to work.
+     Just because a vendor prefix is there, doesn't mean it will
+     work in a browser made by that vendor either, it's just for
+     future-proofing purposes I guess. */
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
+}
+
