@@ -1,4 +1,11 @@
 # Sacramento
 Project Sacramento; Started 11th June 2015
 
-ADDED ADMINS: Alastair Scott, Josh Huckle, Tom Bell
+Sway Park Website:
+  HTML
+  CSS
+  Fonts
+  JS
+  Images
+  
+Brand Image files included.
