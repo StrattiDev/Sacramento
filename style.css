@@ -294,4 +294,11 @@ a {
   /* ...and now for the proper property */
   transition:.5s;
 }
-
+#images
+{
+    bottom:0;
+    padding:0;
+    position: absolute;
+    width:100%;
+    text-align: center;
+}
