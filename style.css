@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: OstrichSans;
-    src: url('fonts/ostrich-sans/ostrich-black.ttf');
+    src: url('fonts/ostrich-sans/ostrich-regular.ttf');
 }
 @font-face {
     font-family: OstrichSanslight;
@@ -52,17 +52,17 @@ position: absolute;
     vertical-align: bottom;
     position: relative;
     padding-left: 5px;
-    top:12px;
+    top:-4.8px;
+    left:1400px;
     font-family: OstrichSans, sans-serif;
     font-style: normal;
     color: #ebda86 ;
 }
 #title
 {
-        position:fixed;
+    position:fixed;
     position: absolute;
-    position: center;
-    right: 0; 
+    right: 1600px; 
     left: 0; 
     margin: 0 auto;
     padding:0;
@@ -209,7 +209,8 @@ a
 {
     width:70%;
     height:70%;
-    color:#7ad0b6;
+    color:#808080;
+    font-weight:900;
     font-family: OstrichSanslight, sans-serif;
     letter-spacing: 1px;
     font-size: 20px;
@@ -249,6 +250,18 @@ a
 #slide_5
 {
     background: White;
+    margin: 0 ;
+    overflow: hidden;
+    padding: 0px 0 0 0;
+    background-size: cover;
+	height:100vh;
+	position:relative;
+    z-index:2;
+}
+
+#slide_6
+{
+    background: #7ad0b6 ;
     margin: 0 ;
     overflow: hidden;
     padding: 0px 0 0 0;
