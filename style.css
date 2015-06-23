@@ -6,11 +6,15 @@
     font-family: OstrichSans;
     src: url('fonts/ostrich-sans/ostrich-regular.ttf');
 }
+@font-face {
+    font-family: OstrichSanslight;
+    src: url('fonts/ostrich-sans/ostrich-light.ttf');
+}
 body
 {
     margin: 0;
     padding:0;
-    overflow:hidden;
+    
 }
 
 #header
@@ -184,7 +188,37 @@ a
     background-size: cover;
 	height:100vh;
 	position:relative;
+    z-index:-1;
+}
+#content
+{
+    width:70%;
+    height:70%;
+    color:white;
+    font-family: OstrichSanslight, sans-serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 15%;
+    margin-top: 10%;
+    padding:0;
     z-index:2;
+    
+}
+#content_2
+{
+    width:70%;
+    height:70%;
+    color:#7ad0b6;
+    font-family: OstrichSanslight, sans-serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 15%;
+    margin-top: 10%;
+    padding:0;
+    z-index:2;
+    
 }
 #slide_3
 {
@@ -196,6 +230,10 @@ a
 	height:100vh;
 	position:relative;
     z-index:2;
+}
+#prices
+{
+    border:1px solid #7ad0b6;
 }
 #slide_4
 {
@@ -218,6 +256,29 @@ a
 	height:100vh;
 	position:relative;
     z-index:2;
+}
+#margin_edit
+{
+  margin-bottom:0;  
+}
+#list
+{
+    margin:0;
+    padding:0;
+    text-align: left;
+    display: block;
+    margin-left:20%;
+    border: 0;
+    
+}
+#line
+{
+    width:20%;
+    margin-left: 40%;
+    height:0.5px;
+    background-color: #7ad0b6;
+        height: 1px;
+    border: 0;
 }
 a {
     text-decoration: none; 
