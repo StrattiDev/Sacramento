@@ -4,9 +4,23 @@
     <meta name="keywords" content="Caravans, sway park, motor home, touring,  ">
     <meta name="description" content="Welcome to Sway park motor home and touring caravan hire.">
     <link type="text/css" href="style.css" rel="stylesheet">
+    <script type="text/javascript">
+    $(window).on('scroll', function() {
+    console.log($(this).scrollTop());
+    if ($(this).scrollTop() > 150 && !$('.nav').hasClass('visible')) {
+        $('.nav').animate({opacity : 1}, 'slow', function() {
+            $(this).addClass('visible').removeAttr('style');
+        });
+    } else if ($(this).scrollTop() <= 150 && $('.nav').hasClass('visible')) {
+        $('.nav').animate({opacity : 0}, 'slow', function() {
+            $(this).removeClass('visible').removeAttr('style');
+        });
+    }
+});
+    </script>
 </head>
 <body>
-    <div id="header">
+    <div id="header" class="nav">
         <a class="smoothScroll" href="#slide_1"><p id="menu">Home</p></a>
         <p id="menu">|</p>
     <a class="smoothScroll" href="#slide_2"><p id="menu">About</p></a>
