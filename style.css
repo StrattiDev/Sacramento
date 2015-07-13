@@ -209,7 +209,7 @@ a
 {
     width:70%;
     height:70%;
-    color:#7ad0b6;
+    color:black;
     font-family: OstrichSanslight, sans-serif;
     letter-spacing: 1px;
     font-size: 20px;
@@ -256,6 +256,7 @@ a
 	height:100vh;
 	position:relative;
     z-index:2;
+    
 }
 #margin_edit
 {
@@ -301,4 +302,16 @@ a {
     position: absolute;
     width:100%;
     text-align: center;
+}
+
+#slide_6
+{
+    background: #7ad0b6;
+    margin: 0 ;
+    overflow: hidden;
+    padding: 0px 0 0 0;
+    background-size: cover;
+	height:100vh;
+	position:relative;
+    z-index:2;
 }
